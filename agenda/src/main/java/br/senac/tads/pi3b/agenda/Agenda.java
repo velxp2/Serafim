@@ -126,5 +126,9 @@ public class Agenda {
         nome = ent.nextLine();
         agenda.excluir(nome);
         agenda.executar();
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Número: "+i);
+        }
     }
 }
